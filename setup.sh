@@ -21,10 +21,19 @@ FEAT_DIR=./datasets/coco_extract
 cd $FEAT_DIR
 echo Unzip train2014.tar.gz ...
 tar -xzvf train2014.tar.gz
+echo Unziped
+rm train2014.tar.gz
+echo zip removed
 echo Unzip val2014.tar.gz ...
 tar -xzvf val2014.tar.gz
+echo Unziped
+rm val2014.tar.gz
+echo zip removed
 echo Unzip test2015.tar.gz ...
 tar -xzvf test2015.tar.gz
+echo Unziped
+rm test2015.tar.gz
+echo zip removed
 cd ../..
 
 
